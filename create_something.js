@@ -43,7 +43,7 @@ export default function () {
         'Content-Type': 'application/json',    
       };
   for (let i = 0; i < iteration; i++) {
-    const deviceName = `K6NL1CTEST50G${deviceNameCounter * iteration + i + 1}`;
+    const deviceName = `K61CTEST50G${deviceNameCounter * iteration + i + 1}`;
     const requestBody = {
         deviceName: deviceName,
       };
